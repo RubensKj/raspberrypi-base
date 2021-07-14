@@ -5,6 +5,6 @@ services:
     privileged: true
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - /home/pi/data/portainer:/data
+      - /home/pi/portainer/data/:/data
     ports:
       - "9000:9000"
